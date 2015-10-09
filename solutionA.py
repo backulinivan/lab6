@@ -6,4 +6,5 @@ numArr = list(map(int, inputA.readline().split()))
 for i in range(num):
     if numArr.count(numArr[i]) == 2:
         reqNum = numArr[i]
+        break
 outputA.write(str(reqNum))        
